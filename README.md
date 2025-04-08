@@ -1,5 +1,22 @@
-# Dakota
-The repository for the robot project "Dakota". A smarter robot. Cheaper
+# Axis API 2.0 "Ella"
 
+Axis API 2.0 "Ella" is a Python package for connecting to a hosted llama instance.
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/507-Software/Dakota">Project "Dakota"</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/507-Software">507 Software</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+## Installation
+
+```bash
+pip install axisapi2
+```
+
+## Usage
+
+```python
+from axisapi2 import connect
+
+# Example usage
+connect()
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
